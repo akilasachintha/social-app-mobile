@@ -1,0 +1,9 @@
+const API_CONFIG = {
+    SOCIAL_APP_BASE_URL: process.env.EXPO_PUBLIC_SOFICAL_APP_API,
+    I2_AUTH_BASE_URL: process.env.EXPO_PUBLIC_I2_AUTH_API,
+    PROJECT_CODE: process.env.EXPO_PUBLIC_PROJECT_CODE,
+    ENV: process.env.EXPO_PUBLIC_ENV,
+    APP_VERSION: process.env.EXPO_PUBLIC_APP_VERSION,
+}
+
+export default API_CONFIG;
